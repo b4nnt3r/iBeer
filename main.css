@@ -11,6 +11,12 @@ COLORS:
 light tan: #eeebda
 
 */
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+
 body{
     font-family: 'Noto Serif', serif;
     line-height: 1.8;
@@ -139,7 +145,7 @@ aside{
     left: 815px;
     right: 200px;
     margin-top: -50px;
-    height: 1940px;
+    height: 2004px;
     /*
         TODO:
         - Flexbox: Set the starting width of this element
@@ -183,7 +189,7 @@ article time{
 article img{
     float: right;
     width: 55%;
-    clear: both;
+
 
     /*
         TODO:
@@ -194,10 +200,11 @@ article img{
 article footer p{
     text-align: center;
     text-transform: uppercase;
+    padding: 10px;
     line-height: 1em;
     border-top: 1px solid #ccc;
-    padding: 5px;
-    margin-top: 10px;
+
+
     /*
         TODO:
         - Style the article footer
@@ -208,7 +215,7 @@ article footer p{
     color: white;
     text-align: center;
     background: #333;
-    margin-top: 1950px;
+    margin-top: 2030px;
     padding: 15px;
     /*
         TODO:
